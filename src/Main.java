@@ -1,18 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 1
-        var dog = 8;
-        var cat = 3.6;
-        var paper = 763789L;
+        // Задание 4
+        var friend = 19;
+        friend = friend + 2;
+        friend = friend / 7;
+        System.out.println(friend);
 
-        // Задание 2
-        dog = dog + 4;
-        cat = cat + 4;
-        paper = paper + 4;
+        // Задание 5
+        var frog = 3.5;
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
 
-        // Задание 3
-        var dogWeight = dog - 3.5;
-        var catWeight = cat - 1.6;
-        var paperWeight = paper - 7639;
     }
 }
